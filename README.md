@@ -26,4 +26,4 @@ poetry run pytest
 
 ## Results
 
-Results are stored in the [pytest_html_report.html](pytest_html_report.html) which can be viewed in any browser.  This also provides the ability to export via CSV or Excel formats.
+Results are stored in the [pytest_html_report.html](example/pytest_html_report.html) which can be viewed in any browser.  This also provides the ability to export via CSV or Excel formats.
