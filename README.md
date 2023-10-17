@@ -9,7 +9,7 @@ This project provides examples to extend the IP Fabric platform with custom devi
 The project is available on GitLab and can be installed by cloning the repository:
 
 ```bash
-git clone https://gitlab.com/ipfabric/custom-device-testing.git
+git clone https://gitlab.com/ip-fabric/integrations/pynetcheck.git
 poetry install
 cp sample.env .env
 ```

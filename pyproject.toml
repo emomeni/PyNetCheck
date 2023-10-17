@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "PyNetCheck"
+version = "0.1.0"
+license = "MIT"
+description = "Python Network device checker using Pytest and IP Fabric."
+authors = ["Justin Jeffery <justin.jeffery@ipfabric.io>"]
+readme = "README.md"
+packages = []
+keywords = ["ipfabric", "ip-fabric", "community-fabric"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipfabric = "^6.3.2"
+ciscoconfparse = "^1.7.24"
+pytest = "^7.4.2"
+pytest-html-reporter = "^0.2.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--tb=line"
+testpaths = ["tests"]
+required_plugins = ["pytest-html-reporter"]
