@@ -6,12 +6,21 @@ This project provides examples to extend the IP Fabric platform with custom devi
 
 *This project is still in development and more test cases and examples will be added at a later time.*
 
+## Requirements
+
+Currently requires `poetry` in this developmental state.
+
+```bash
+pip install poetry
+```
+
 ## Installation
 
 The project is available on GitLab and can be installed by cloning the repository:
 
 ```bash
 git clone https://gitlab.com/ip-fabric/integrations/pynetcheck.git
+cd pynetcheck
 poetry install
 cp sample.env .env
 ```
