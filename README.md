@@ -24,6 +24,14 @@ To run tests, use the following command:
 poetry run pytest
 ```
 
+To run using a configuration directory simply place all text configs in a single directory and run the following command:
+
+```bash
+poetry run pytest --dir=/path/to/dir
+```
+
 ## Results
 
 Results are stored in the [pytest_html_report.html](example/pytest_html_report.html) which can be viewed in any browser.  This also provides the ability to export via CSV or Excel formats.
+
+![img.png](example/pytest_html.png)
